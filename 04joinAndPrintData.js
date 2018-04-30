@@ -1,6 +1,6 @@
 //Join together and print different data types:
 
-function performOperation(secondInteger, secondDecimal, secondString) {
+function joinAndPrint(secondInteger, secondDecimal, secondString) {
     // Declare a variable named 'firstInteger' and initialize with integer value 4.
     const firstInteger = 4;
     
@@ -17,5 +17,22 @@ function performOperation(secondInteger, secondDecimal, secondString) {
     console.log(firstDecimal + Number(secondDecimal));
     
     // Write code that uses console.log to print the concatenation of 'firstString' and 'secondString' on a new line. The variable 'firstString' must be printed first.
+    console.log(`${firstString} ${secondString}`);
+}
+
+
+//WITHOUT COMMENTS:
+
+function joinAndPrint(secondInteger, secondDecimal, secondString) {
+    const firstInteger = 4;
+
+    const firstDecimal = 4.0;
+
+    const firstString = 'HackerRank';
+
+    console.log(firstInteger + parseInt(secondInteger));
+
+    console.log(firstDecimal + Number(secondDecimal));
+
     console.log(`${firstString} ${secondString}`);
 }

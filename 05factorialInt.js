@@ -12,7 +12,7 @@ function factorial(n) {
     // Step 2. Create the WHILE loop 
     while (n > 1) { 
     n--; // decrementation by 1 at each iteration
-    result = result * n; // or result *= num; 
+    result = result * n; // or result *= n; 
     
     /* 
                     num           num--      var result      result *= num         
@@ -27,4 +27,24 @@ function factorial(n) {
 
   // Step 3. Return the factorial of the provided integer
   return result;
+}
+
+
+
+//WITHOUT COMMENTS:
+
+
+function factorial(n) {
+    let result = n;
+
+    if (n === 0 || n === 1) {
+        return 1;
+    }
+
+    while (n > 1) {
+        n--;
+        result *= n;
+    }
+
+    return result;
 }

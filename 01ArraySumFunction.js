@@ -1,8 +1,8 @@
-//Given an array on integers, write a function that finds the sum of its elemts
+//Given an array on integers, write a function that finds the sum of its elements
 
 function simpleArraySum(ar) {
     const add = (a, b) =>
-    a + b
+    a + b;
     //defining a simple Arrow Function 'add' that takes two numbers and adds them together
 
     const sum = ar.reduce(add);
@@ -21,8 +21,37 @@ function simpleArraySum(ar) {
 
 //This function could also be written like:
 
-function simpleArraySum(ar) {
+function simpleArraySum2(ar) {
     const sum = ar.reduce((total, amount) => total + amount); // Defining the add function within the Reduce method, exactly the same outcome as above
 
     return sum;
 }
+
+
+//WITHOUT COMMENTS: 
+
+function simpleArraySum(ar) {
+  const add = (a, b) =>
+  a + b;
+
+  const sum = ar.reduce(add);
+
+  return sum;
+}
+
+//OR
+
+function simpleArraySum2(ar) {
+  const sum = ar.reduce((total, amount) => total + amount);
+
+  return sum;
+}
+
+
+
+
+
+
+
+
+

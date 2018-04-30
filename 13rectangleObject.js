@@ -9,6 +9,7 @@
 
 function Rectangle(a, b) {
     let rectangleObject = new Object();
+    
     rectangleObject.length = a;
     rectangleObject.width = b;
     rectangleObject.perimeter = 2 * (a+b);
