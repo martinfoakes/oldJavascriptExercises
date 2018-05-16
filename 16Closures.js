@@ -99,5 +99,3 @@ console.log(count1, count2, count3);
     The JS code in front-end is generally event-based (triggered by the user), being attached as a CALLBACK
     to a click or a keypress. (A single callback function is is executed in response to the event)
 */
-
-
