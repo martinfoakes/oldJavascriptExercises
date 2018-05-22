@@ -26,5 +26,5 @@ function solve(a0, a1, a2, b0, b1, b2) {
 
     let steve = ( a0 < b0 ? 1 : 0 ) + ( a1 < b1 ? 1 : 0 ) + ( a2 < b2 ? 1 : 0 );
 
-    return [alice, bob];
+    return [jane, steve];
 }
