@@ -19,12 +19,12 @@ Given A and B, can you compare the two challenges and print their respective com
 
 */
 
-function solve(a0, a1, a2, b0, b1, b2) {
-    let jane = ( a0 > b0 ? 1 : 0 ) + ( a1 > b1 ? 1 : 0 ) + ( a2 > b2 ? 1 : 0 );
+function solve(a, b) {
+    let jane = ( a[0] > b[0] ? 1 : 0 ) + ( a[1] > b[1] ? 1 : 0 ) + ( a[2] > b[2] ? 1 : 0 );
     
 // IF/ELSE statements above and below using the ternary operator [?]. IF Alice's values of [a] are bigger than [b] then she gets 1 point and the reverse for Steve
 
-    let steve = ( a0 < b0 ? 1 : 0 ) + ( a1 < b1 ? 1 : 0 ) + ( a2 < b2 ? 1 : 0 );
+    let steve = ( a[0] < b[0] ? 1 : 0 ) + ( a[1] < b[1] ? 1 : 0 ) + ( a[2] < b[2] ? 1 : 0 );
 
     return [jane, steve];
 }
